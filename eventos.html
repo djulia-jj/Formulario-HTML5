@@ -30,7 +30,6 @@
   <h1>Inscreva-se</h1>
 
   <form>
-    <form>
     
       <fieldset class="formulario1">
         <legend class="legend-border">Eventos</legend>
@@ -42,39 +41,29 @@
           
       </fieldset>
 
-    </form>
-
-  
-    <form>
 
       <fieldset class="formulario2">
         <legend class="legend-border">Informações de Acesso</legend>
       
-        <p>Usuário:<input name='usuario' type="text" required></p>
-        <p>Senha:<input name='senha' type="password" required></p>
-        <p>Confirme a Senha:<input name="confirmes" type="password" required></p>
+        <p>Usuário:<input name='usuario' type="text" required=""></p>
+        <p>Senha:<input name='senha' type="password" required=""></p>
+        <p>Confirme a Senha:<input name="confirmes" type="password" required=""></p>
 
       </fieldset>
 
-    </form>
-
-
-    <form>
 
       <fieldset class="formulario3">
         <legend class="legend-border">Informações Pessoais</legend>
 
-        <p>Nome Completo:<input name='nome' required></p>
-        <p>E-mail:<input name='email' type="email" required></p>
+        <p>Nome Completo:<input name='nome' required=""></p>
+        <p>E-mail:<input name='email' type="email" required=""></p>
         <p>Celular:<input type="tel" name="usertel" ></p>
       
-        <form>
           <fieldset class="formulario4">
             <legend class="legend-border">Sexo</legend>
             <input type="radio" value="fem" name="sexo"/>Feminino
             <input type="radio" value="masc" name="sexo"/>Masculino
           </fieldset>
-        </form>
 
         <p>Data de Nascimento:<input name="datan" type="date"></p>
         <p>Cor favorita:<input name="cor" type="color"></p>
@@ -82,10 +71,8 @@
       
       </fieldset>
 
-    </form>
-
-    <br><input type="submit" value="Inscrever-se">
-    <input type="reset" value="Limpar">
+    <br><input type="submit" value="Inscrever-se" name="enviar">
+    <input type="reset" value="Limpar" name="apagar">
   </form>
   
 </body>
