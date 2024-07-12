@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title> Login - IFSP - Pirituba</title>
+<title> Eventos - IFSP - Pirituba</title>
 <script src="js/disabling.js"></script>
 </head>
 
@@ -26,7 +26,67 @@
     <img src="Imagens/Logo.jpg" alt=" "/>
   </header>
 
+  
+  <h1>Inscreva-se</h1>
+
+  <form>
+    <form>
+    
+      <fieldset class="formulario1">
+        <legend class="legend-border">Eventos</legend>
+        <select name='evento'>
+          <option value="voe">Voe Sem Asas</option>
+          <option value="festa">Festa Junina</option>
+          <option value="semana">Semana de Tecnologia</option>
+        </select>
+          
+      </fieldset>
+
+    </form>
+
+  
+    <form>
+
+      <fieldset class="formulario2">
+        <legend class="legend-border">Informações de Acesso</legend>
+      
+        <p>Usuário:<input name='usuario' type="text" required></p>
+        <p>Senha:<input name='senha' type="password" required></p>
+        <p>Confirme a Senha:<input name="confirmes" type="password" required></p>
+
+      </fieldset>
+
+    </form>
 
 
+    <form>
+
+      <fieldset class="formulario3">
+        <legend class="legend-border">Informações Pessoais</legend>
+
+        <p>Nome Completo:<input name='nome' required></p>
+        <p>E-mail:<input name='email' type="email" required></p>
+        <p>Celular:<input type="tel" name="usertel" ></p>
+      
+        <form>
+          <fieldset class="formulario4">
+            <legend class="legend-border">Sexo</legend>
+            <input type="radio" value="fem" name="sexo"/>Feminino
+            <input type="radio" value="masc" name="sexo"/>Masculino
+          </fieldset>
+        </form>
+
+        <p>Data de Nascimento:<input name="datan" type="date"></p>
+        <p>Cor favorita:<input name="cor" type="color"></p>
+        <p>Perfil no Github:<input name="pgithub" type="url"></p>
+      
+      </fieldset>
+
+    </form>
+
+    <br><input type="submit" value="Inscrever-se">
+    <input type="reset" value="Limpar">
+  </form>
+  
 </body>
 </html>
