@@ -1,9 +1,8 @@
-.imagem {
+#img_borda {
   display: flex;
-  border-radius: 500%;
+  border-radius: 50%;
   justify-content: center;
 }
-
 
 #texto {
   text-align: center;
