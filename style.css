@@ -1,6 +1,7 @@
 #img_borda {
+  display: flex;
   border-radius: 500%;
-
+  justify-content: center;
 }
 
 #texto {
