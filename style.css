@@ -1,12 +1,13 @@
 #img_borda {
   border-radius: 500%;
-  width: auto;
-  height: auto;
+
+}
+
+#texto {
+  text-align: center;
 }
 
 .bordas {
-  text-align: center;
-  
   border-top-width: 2px;
   border-top-color: rgb(236, 164, 236);
   border-top-style: dotted;
