@@ -6,7 +6,7 @@
   width: 50%;
 }
 
-p {
+#texto {
   text-align: center;
 }
 
@@ -26,6 +26,10 @@ p {
   border-left-width: 2px;
   border-left-color: black;
   border-left-style: dotted;
+}
+
+.centro {
+  text-align: center;
 }
 
 .video {
