@@ -10,7 +10,7 @@ input[type=text], input[type=email], input[type=tel], input[type=url], input[typ
 
 input[type=submit], input[type=reset]  {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #566ac5;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -20,7 +20,7 @@ input[type=submit], input[type=reset]  {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2d396e;
 }
   
 div {

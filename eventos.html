@@ -29,7 +29,7 @@
 
   <form>
       <fieldset class="formulario1">
-        <p><legend class="legend-border">Eventos</legend></p>
+        <label for="evento">Eventos</label>
         <select name='evento'>
           <option value="voe">Voe Sem Asas</option>
           <option value="festa">Festa Junina</option>
@@ -40,7 +40,7 @@
 
 
       <fieldset class="formulario2">
-        <legend class="legend-border">Informações de Acesso</legend>
+        <label for="infoa">Informações de Acesso</label>
       
         <p>Usuário:<input name='usuario' type="text" required=""></p>
         <p>Senha:<input name='senha' type="password" required=""></p>
@@ -50,14 +50,14 @@
 
 
       <fieldset class="formulario3">
-        <legend class="legend-border">Informações Pessoais</legend>
+        <label for="infop">Informações Pessoais</label>
 
         <p>Nome Completo:<input name='nome' required=""></p>
         <p>E-mail:<input name='email' type="email" required=""></p>
         <p>Celular:<input type="tel" name="usertel" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"/><span> (99) 99999-9999</span></p>
       
           <fieldset class="formulario4">
-            <legend class="legend-border">Sexo</legend>
+            <label for="sexo">Sexo</label>
             <input type="radio" value="fem" name="sexo"/>Feminino
             <input type="radio" value="masc" name="sexo"/>Masculino
           </fieldset>
