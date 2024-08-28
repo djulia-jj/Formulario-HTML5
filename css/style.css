@@ -3,14 +3,12 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-
-#texto {
-  text-align: center;
+  width: 10%;
 }
 
 .bordas {
+  text-align: center;
+
   border-top-width: 2px;
   border-top-color: rgb(236, 164, 236);
   border-top-style: dotted;
@@ -36,5 +34,5 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
