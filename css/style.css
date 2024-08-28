@@ -11,12 +11,6 @@
   width: 50%;
 } 
 
-figure {
-  display: inline-block;
-  border: 0px dotted gray;
-  margin: 20px; 
-}
-
 figure figcaption {
   border: 1px dotted blue;
   text-align: center;
