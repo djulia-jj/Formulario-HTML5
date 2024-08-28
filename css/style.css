@@ -1,4 +1,9 @@
-#img_borda {
+#conteudo {
+  width: 100%;
+  float: right;
+}
+
+img {
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -6,24 +11,19 @@
   width: 10%;
 }
 
-.bordas {
+h1 {
   text-align: center;
+}
 
-  border-top-width: 2px;
-  border-top-color: rgb(236, 164, 236);
-  border-top-style: dotted;
+figure {
+  display: inline-block;
+  border: 0px dotted gray;
+  margin: 20px;
+}
 
-  border-right-width: 2px;
-  border-right-color: black;
-  border-right-style: dotted;
-
-  border-bottom-width: 2px;
-  border-bottom-color: rgb(236, 164, 236);
-  border-bottom-style: dotted;
-
-  border-left-width: 2px;
-  border-left-color: black;
-  border-left-style: dotted;
+figure figcaption {
+  border: 1px dotted blue;
+  text-align: center;
 }
 
 .centro {
