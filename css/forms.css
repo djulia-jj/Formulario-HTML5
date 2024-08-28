@@ -30,7 +30,11 @@ input[type=reset]  {
     cursor: pointer;
 }
 
-input[type=submit], input[type=reset]:hover {
+input[type=submit] {
+    background-color: #2d396e;
+}
+
+input[type=reset]:hover {
     background-color: #2d396e;
 }
   
