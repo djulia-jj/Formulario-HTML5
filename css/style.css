@@ -5,8 +5,8 @@
 
 .img_borda {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
 } 
 
