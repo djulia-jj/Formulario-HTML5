@@ -3,17 +3,13 @@
   float: right;
 }
 
-.img_borda {
+#img_borda {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 } 
-
-h1 {
-  text-align: center;
-}
 
 figure {
   display: inline-block;
